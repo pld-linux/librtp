@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Libraries
 Source0:	http://unc.dl.sourceforge.net/sourceforge/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	697d560425fbb1759d51390481e50491
 URL:		http://librtp.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
