@@ -5,7 +5,7 @@ Version:	0.1
 Release:	1
 License:	GPL
 Group:		Libraries
-Source0:	http://dl.sourceforge.net/sourceforge/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/librtp/%{name}-%{version}.tar.gz
 # Source0-md5:	697d560425fbb1759d51390481e50491
 URL:		http://librtp.sourceforge.net/
 BuildRequires:	autoconf
@@ -27,7 +27,7 @@ protokole znajduje siê w RFC 1889 i 1890.
 Summary:	Header files to develop applications using librtp
 Summary(pl):	Pliki nag³ówkowe do tworzenia aplikacji u¿ywaj±cych librtp
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for the librtp library.
@@ -39,7 +39,7 @@ Pliki nag³ówkowe dla biblioteki librtp.
 Summary:	Static librtp library
 Summary(pl):	Statyczna biblioteka librtp
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static librtp library.
