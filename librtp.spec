@@ -1,5 +1,5 @@
 Summary:	RTP/RTCP protocol library
-Summary(pl):	Biblioteka obs³uguj±ca protokó³ RTP/RTCP
+Summary(pl.UTF-8):   Biblioteka obsÅ‚ugujÄ…ca protokÃ³Å‚ RTP/RTCP
 Name:		librtp
 Version:	0.1
 Release:	1
@@ -19,32 +19,32 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 librtp is a library for handling RTP/RTCP packets. (See RFC 1889 and
 1890 for more information about the protocol)
 
-%description -l pl
-librtp to biblioteka obs³uguj±ca pakiety RTP/RTCP. Wiêcej informacji o
-protokole znajduje siê w RFC 1889 i 1890.
+%description -l pl.UTF-8
+librtp to biblioteka obsÅ‚ugujÄ…ca pakiety RTP/RTCP. WiÄ™cej informacji o
+protokole znajduje siÄ™ w RFC 1889 i 1890.
 
 %package devel
 Summary:	Header files to develop applications using librtp
-Summary(pl):	Pliki nag³ówkowe do tworzenia aplikacji u¿ywaj±cych librtp
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe do tworzenia aplikacji uÅ¼ywajÄ…cych librtp
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for the librtp library.
 
-%description devel -l pl
-Pliki nag³ówkowe dla biblioteki librtp.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe dla biblioteki librtp.
 
 %package static
 Summary:	Static librtp library
-Summary(pl):	Statyczna biblioteka librtp
+Summary(pl.UTF-8):   Statyczna biblioteka librtp
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static librtp library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka librtp.
 
 %prep
