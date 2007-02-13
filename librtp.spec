@@ -1,5 +1,5 @@
 Summary:	RTP/RTCP protocol library
-Summary(pl.UTF-8):   Biblioteka obsługująca protokół RTP/RTCP
+Summary(pl.UTF-8):	Biblioteka obsługująca protokół RTP/RTCP
 Name:		librtp
 Version:	0.1
 Release:	1
@@ -25,7 +25,7 @@ protokole znajduje się w RFC 1889 i 1890.
 
 %package devel
 Summary:	Header files to develop applications using librtp
-Summary(pl.UTF-8):   Pliki nagłówkowe do tworzenia aplikacji używających librtp
+Summary(pl.UTF-8):	Pliki nagłówkowe do tworzenia aplikacji używających librtp
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -37,7 +37,7 @@ Pliki nagłówkowe dla biblioteki librtp.
 
 %package static
 Summary:	Static librtp library
-Summary(pl.UTF-8):   Statyczna biblioteka librtp
+Summary(pl.UTF-8):	Statyczna biblioteka librtp
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
